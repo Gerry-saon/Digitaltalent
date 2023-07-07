@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h1>JavaScript Prompt</h1><br>
+        <h2>JavaScript Prompt</h2>
+
+        <button onclick="myFunction()">Input Nama Anda</button>
+
+        <p id="Gery"></p>
+
+        <script>
+function myFunction() {
+  var txt;
+  var person = prompt("Silahkan masukan nama anda:", "Gery Saon");
+  if (person == null || person == "") {
+    txt = "Anda membatalkan permintaan.";
+  } else {
+    txt = "Hello" + person + "! Apa kabarnya hari ini?";
+  }
+  document.getElementById("Gery").innerHTML = txt;
+}
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function tampil(){
+              document.getElementById("area").style.color='crimson'
+              document.getElementById("area").innerHTML='Anda Klik onMouseover lepas untuk OnMouseOut'
+            }
+            function kembali(){
+              document.getElementById("area").style.color='black'
+              document.getElementById("area").innerHTML='Klik di sini untuk onMouseover'
+            }
+
+        </script>
+    </head>
+    <body>
+        <div id="area" onmouseover="tampil()" onmouseout="kembali()"
+            style="background-color:white;">Jangan arahkan mouse kalian disini</div>
+        <br>
+
+    </body>
+</html>

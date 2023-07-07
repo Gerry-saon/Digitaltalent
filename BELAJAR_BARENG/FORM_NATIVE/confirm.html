@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h1>Digital Talent</h1></br>
+        <h2>JavaScript Confirm</h2>
+
+        <button onclick="myFunction()">Benarkah</button>
+
+        <p id="demo"></p>
+
+        <script>
+function myFunction() {
+  var txt;
+  if (confirm("Apakah Anda Peserta Digital Talent!")) {
+    txt = "Ya, Saya Peserta Digital Talent!";
+  } else {
+    txt = "Maaf, Anda Bukan Peserta!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+    </body>
+</html>
